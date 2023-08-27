@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<test-results name="D:\DelphiProjects\Tasks\Win32\Debug\Tasks_September.exe" total="18" errors="2" failures="12" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2023-08-27" time="0.271">
+  <culture-info current-culture="en" current-uiculture="en" />
+  <test-suite type="Assembly" name="Tasks_September.exe" executed="true" result="Failure" success="False" time="0.271" asserts="0">
+    <results>
+        <test-suite type="Namespace" name="uTests_1" executed="true" result="Failure" success="False" time="0.271" asserts="0" >
+          <results>
+              <test-suite type="Fixture" name="TMyTest" executed="True" result="Failure" success="False" time="0.271" >
+                <results>
+                  <test-case name="TestAddition.TestA" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected 3 is not equal to actual 18013921786197872  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestAddition.TestB" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestAddition.TestC" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected 1 is not equal to actual 0  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestAddition.TestD" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected -3 is not equal to actual 0  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestSubtraction.TestA" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected -1 is not equal to actual 0  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestSubtraction.TestB" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestSubtraction.TestC" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected -2 is not equal to actual 0  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestSubtraction.TestD" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected 1 is not equal to actual 0  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestMultiplication.TestA" executed="True" result="Failure" success="False" time="0.001" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected 5 is not equal to actual 0  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestMultiplication.TestB" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected 5 is not equal to actual 0  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestMultiplication.TestC" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestMultiplication.TestD" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                  <test-case name="TestMultiplication.TestE" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected 2 is not equal to actual 0  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestMultiplication.TestF" executed="True" result="Failure" success="False" time="0.001" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected -5 is not equal to actual 0  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestMultiplication.TestG" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected 16 is not equal to actual 0  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestDivision_1.TestA" executed="True" result="Failure" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Expected 2 but got 0  ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestDivision_1.TestB" executed="True" result="Error" success="False" time="0.001" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Invalid floating point operation ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="TestDivision_2.TestA" executed="True" result="Error" success="False" time="0.000" asserts="0" >
+                    <failure>
+                      <message>
+                        <![CDATA[ Invalid floating point operation ]]>
+                      </message>
+                      <stack-trace>
+                        <![CDATA[  ]]>
+                      </stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+          </results>
+        </test-suite>
+    </results>
+  </test-suite>
+</test-results>
