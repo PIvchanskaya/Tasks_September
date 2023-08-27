@@ -5,31 +5,25 @@ Program Tasks_September;
 {$ENDIF}
 {$STRONGLINKTYPES ON}
 
-Uses
-    System.SysUtils,
-
-    {$IFDEF TESTINSIGHT}
-
-    TestInsight.DUnitX,
-
-    {$ELSE}
-
-    DUnitX.Loggers.Console,
-    DUnitX.Loggers.Xml.NUnit,
-
-    {$ENDIF }
-
-    DUnitX.TestFramework,
-    UTests_1 In 'uTests_1.pas',
-    UTests_2 In 'uTests_2.pas',
-    UTests_3 In 'uTests_3.pas',
-    UTests_4 In 'uTests_4.pas',
-    UTests_5 In 'uTests_5.pas',
-    UTask_1 In 'uTask_1.pas',
-    UTask_2 In 'uTask_2.pas',
-    UTask_3 In 'uTask_3.pas',
-    UTask_4 In 'uTask_4.pas',
-    UTask_5 In 'uTask_5.pas';
+uses
+  System.SysUtils,
+  {$IFDEF TESTINSIGHT}
+  TestInsight.DUnitX,
+  {$ELSE}
+  DUnitX.Loggers.Console,
+  DUnitX.Loggers.Xml.NUnit,
+  {$ENDIF }
+  DUnitX.TestFramework,
+  uTask_1 in 'uTask_1.pas',
+  uTask_2 in 'uTask_2.pas',
+  uTask_3 in 'uTask_3.pas',
+  uTask_4 in 'uTask_4.pas',
+  uTask_5 in 'uTask_5.pas',
+  uTests_1 in 'Tests\uTests_1.pas',
+  uTests_2 in 'Tests\uTests_2.pas',
+  uTests_3 in 'Tests\uTests_3.pas',
+  uTests_4 in 'Tests\uTests_4.pas',
+  uTests_5 in 'Tests\uTests_5.pas';
 
 {$IFNDEF TESTINSIGHT}
 
