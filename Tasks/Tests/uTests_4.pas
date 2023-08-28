@@ -1,31 +1,48 @@
-unit uTests_4;
+Unit uTests_4;
 
-interface
+Interface
 
-uses
-  DUnitX.TestFramework;
+Uses
+    DUnitX.TestFramework,
+    UTask_4;
 
-type
-  [TestFixture]
-  TMyTest = class
-  public
-    [Setup]
-    procedure Setup;
-    [TearDown]
-    procedure TearDown;
-  end;
+Type
+    [TestFixture]
+    TMyTest = Class
+    Public
+        [Setup]
+        Procedure Setup;
+        [TearDown]
+        Procedure TearDown;
+        [TestCase('TestA', '1111,4')]
+        [TestCase('TestA', '101,2')]
+        [TestCase('TestB', '999999,54')]
+        [TestCase('TestC', '100000,1')]
+        [TestCase('TestD', '25,7')]
+        [TestCase('TestE', '1234567,28')]
+        Procedure TestSum(Const AValue: Int64; Const AExpectedValue: Integer);
+    End;
 
-implementation
+Implementation
 
-procedure TMyTest.Setup;
-begin
-end;
+Procedure TMyTest.Setup;
+Begin
+End;
 
-procedure TMyTest.TearDown;
-begin
-end;
+Procedure TMyTest.TearDown;
+Begin
+End;
 
-initialization
-  TDUnitX.RegisterTestFixture(TMyTest);
+Procedure TMyTest.TestSum(Const AValue: Int64; Const AExpectedValue: Integer);
+Var
+    TestResult: Integer;
+Begin
+    TestResult := TSumOfDigits.FindSum(AValue);
+    Assert.AreEqual(AExpectedValue, TestResult);
+End;
 
-end.
+Initialization
+
+TDUnitX.RegisterTestFixture(TMyTest);
+
+End.

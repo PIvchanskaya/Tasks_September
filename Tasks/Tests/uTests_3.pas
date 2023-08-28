@@ -1,31 +1,47 @@
-unit uTests_3;
+Unit uTests_3;
 
-interface
+Interface
 
-uses
-  DUnitX.TestFramework;
+Uses
+    DUnitX.TestFramework, uTask_3;
 
-type
-  [TestFixture]
-  TMyTest = class
-  public
-    [Setup]
-    procedure Setup;
-    [TearDown]
-    procedure TearDown;
-  end;
+Type
+    [TestFixture]
+    TMyTest = Class
+    Public
+        [Setup]
+        Procedure Setup;
+        [TearDown]
+        Procedure TearDown;
+        [TestCase('TestA', '6,12,18,36')]
+        [TestCase('TestA', '15,20,12,60')]
+        [TestCase('TestB', '1,1,1,1')]
+        [TestCase('TestC', '10,5,1,10')]
+        [TestCase('TestD', '25,25,25,25')]
+        [TestCase('TestE', '2,2,9,18')]
+        Procedure TestLCM(Const AValue1: Integer; Const AValue2: Integer; Const AValue3: Integer; Const AExpectedValue: Integer);
+    End;
 
-implementation
+Implementation
 
-procedure TMyTest.Setup;
-begin
-end;
+Procedure TMyTest.Setup;
+Begin
+End;
 
-procedure TMyTest.TearDown;
-begin
-end;
+Procedure TMyTest.TearDown;
+Begin
+End;
 
-initialization
-  TDUnitX.RegisterTestFixture(TMyTest);
+Procedure TMyTest.TestLCM(Const AValue1: Integer; Const AValue2: Integer; Const AValue3: Integer; Const AExpectedValue: Integer);
+Var
+    TestResult: Integer;
+Begin
+    TestResult := TLeastCommonMultiple.FindLCM(AValue1, AValue2, AValue3);
+    Assert.AreEqual(AExpectedValue, TestResult);
+End;
 
-end.
+Initialization
+
+TDUnitX.RegisterTestFixture(TMyTest);
+
+End.

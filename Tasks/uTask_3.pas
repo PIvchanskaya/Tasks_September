@@ -1,7 +1,35 @@
-unit uTask_3;
+{
+  Задание:
+  Найти наименьшее общее кратное трех чисел.
+  Вводимые числа являются натуральными.
+  Вводимые данные являются заведомо верными.
 
-interface
+  Примеры
 
-implementation
+  1.
+  Входные данные: 3 5 7
+  Выходные данные: 105
 
-end.
+  2.
+  Входные данные: 10 10 20
+  Выходные данные: 20
+}
+
+Unit uTask_3;
+
+Interface
+
+Type
+
+    TLeastCommonMultiple = Class
+        Class Function FindLCM(Value1, Value2, Value3: Integer): Integer;
+    End;
+
+Implementation
+
+Class Function TLeastCommonMultiple.FindLCM(Value1, Value2, Value3: Integer): Integer;
+Begin
+    //Поместите Ваш код сюда
+End;
+
+End.

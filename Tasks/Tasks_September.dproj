@@ -112,9 +112,6 @@
         <DCCReference Include="uTask_5.pas">
             <Form>/uTests_1 in &apos;Tests\uTests_1.pas&apos;,</Form>
         </DCCReference>
-        <DCCReference Include="Tests\uTests_1.pas"/>
-        <DCCReference Include="Tests\uTests_2.pas"/>
-        <DCCReference Include="Tests\uTests_3.pas"/>
         <DCCReference Include="Tests\uTests_4.pas"/>
         <DCCReference Include="Tests\uTests_5.pas"/>
         <BuildConfiguration Include="Base">

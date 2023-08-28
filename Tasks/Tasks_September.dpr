@@ -19,9 +19,9 @@ uses
   uTask_3 in 'uTask_3.pas',
   uTask_4 in 'uTask_4.pas',
   uTask_5 in 'uTask_5.pas',
-  uTests_1 in 'Tests\uTests_1.pas',
-  uTests_2 in 'Tests\uTests_2.pas',
-  uTests_3 in 'Tests\uTests_3.pas',
+  //uTests_1 in 'Tests\uTests_1.pas',
+  //uTests_2 in 'Tests\uTests_2.pas',
+  //uTests_3 in 'Tests\uTests_3.pas',
   uTests_4 in 'Tests\uTests_4.pas',
   uTests_5 in 'Tests\uTests_5.pas';
 
