@@ -3,7 +3,8 @@ Unit uTests_3;
 Interface
 
 Uses
-    DUnitX.TestFramework, uTask_3;
+    DUnitX.TestFramework,
+    UTask_3;
 
 Type
     [TestFixture]
@@ -13,6 +14,7 @@ Type
         Procedure Setup;
         [TearDown]
         Procedure TearDown;
+        [Test]
         [TestCase('TestA', '6,12,18,36')]
         [TestCase('TestA', '15,20,12,60')]
         [TestCase('TestB', '1,1,1,1')]

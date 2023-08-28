@@ -30,7 +30,6 @@ Unit uTask_4;
 Interface
 
 Type
-
     TSumOfDigits = Class
         Class Function FindSum(Value: Int64): Integer;
     End;

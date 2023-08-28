@@ -1,7 +1,35 @@
-unit uTask_5;
+{
+  Задание:
+  Найти разность суммы и произведение элементов массива.
+  Вводимые числа являются рациональными.
+  Вводимые данные являются заведомо верными.
 
-interface
+  Примеры
+  1.
+  Входные данные: 0.1 0.1 0.1
+  Выходные данные: 0.299
 
-implementation
+  2.
+  Входные данные: -2 -1 0 1 2
+  Выходные данные: 0
 
-end.
+}
+
+Unit uTask_5;
+
+Interface
+
+Type
+    //TArr = Array of Real; - так лучше делать в будущем. Пока пишем ручками
+    TArraySumAndMul = Class
+        Class Function FindSumAndMul(Arr: Array Of Real): Real;
+    End;
+
+Implementation
+
+Class Function TArraySumAndMul.FindSumAndMul(Arr: Array Of Real): Real;
+Begin
+    //Поместит Ваш код сюда
+End;
+
+End.

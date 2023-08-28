@@ -14,6 +14,7 @@ Type
         Procedure Setup;
         [TearDown]
         Procedure TearDown;
+        [Test]
         [TestCase('TestA', '1111,4')]
         [TestCase('TestA', '101,2')]
         [TestCase('TestB', '999999,54')]
