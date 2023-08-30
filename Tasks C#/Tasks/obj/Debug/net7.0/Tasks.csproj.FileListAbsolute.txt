@@ -1,0 +1,11 @@
+C:\Users\andre\RiderProjects\Tasks\Tasks\bin\Debug\net7.0\Tasks.deps.json
+C:\Users\andre\RiderProjects\Tasks\Tasks\bin\Debug\net7.0\Tasks.dll
+C:\Users\andre\RiderProjects\Tasks\Tasks\bin\Debug\net7.0\Tasks.pdb
+C:\Users\andre\RiderProjects\Tasks\Tasks\obj\Debug\net7.0\Tasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\RiderProjects\Tasks\Tasks\obj\Debug\net7.0\Tasks.AssemblyInfoInputs.cache
+C:\Users\andre\RiderProjects\Tasks\Tasks\obj\Debug\net7.0\Tasks.AssemblyInfo.cs
+C:\Users\andre\RiderProjects\Tasks\Tasks\obj\Debug\net7.0\Tasks.csproj.CoreCompileInputs.cache
+C:\Users\andre\RiderProjects\Tasks\Tasks\obj\Debug\net7.0\Tasks.dll
+C:\Users\andre\RiderProjects\Tasks\Tasks\obj\Debug\net7.0\refint\Tasks.dll
+C:\Users\andre\RiderProjects\Tasks\Tasks\obj\Debug\net7.0\Tasks.pdb
+C:\Users\andre\RiderProjects\Tasks\Tasks\obj\Debug\net7.0\ref\Tasks.dll
