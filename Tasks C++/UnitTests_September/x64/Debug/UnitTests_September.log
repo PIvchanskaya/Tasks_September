@@ -1,0 +1,4 @@
+﻿  UnitTests_September.cpp
+D:\C\My projects\UnitTests_September\Tasks_Cpp_September\Task_5.h(28,28): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\C\My projects\UnitTests_September\Tasks_Cpp_September\Task_5.h(32,28): warning C4244: '*=': conversion from 'double' to 'float', possible loss of data
+  UnitTests_September.vcxproj -> D:\C\My projects\UnitTests_September\Tasks_Cpp_September\x64\Debug\UnitTests_September.dll
