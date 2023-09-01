@@ -67,3 +67,5 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+Tasks C\#/.vs/Tasks/v17/.suo
+Tasks C\#/.vs/Tasks/v17/TestStore/0/000.testlog
