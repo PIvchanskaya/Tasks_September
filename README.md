@@ -19,21 +19,17 @@
 #### В Delphi
 Для этого необходимо либо временно исключить юнит с невостребованными тестами из проекта(не забудьте его вернуть:upside_down_face:), либо исключить их выполнение.
 
-Для второго варианта делаем следующее: в структуре проекта выбираем .exe файл, открываем код файла(**Ctrl + V** либо **ПКМ->View Source**), в коде находим
-    
-    UTests_1 In 'Tests\uTests_1.pas',
-    UTests_2 In 'Tests\uTests_2.pas',
-    UTests_3 In 'Tests\uTests_3.pas',
-    UTests_4 In 'Tests\uTests_4.pas',
-    UTests_5 In 'Tests\uTests_5.pas';
+Для второго варианта делаем следующее: в структуре проекта выбираем .exe файл, открываем код файла(**Ctrl + V** либо **ПКМ->View Source**), 
 
+![Скриншот пути к коду с тестами Delphi](/assets/images/Screenshot_1_Delphi.png)
+
+в коде находим кусок с тестами
+
+![Скриншот кода с тестами Delphi](/assets/images/Screenshot_2_Delphi.png)
+  
 и закомменчиваем невостребованные тесты(в данном случае будет выполнен только 1-ый блок тестов):
 
-    UTests_1 In 'Tests\uTests_1.pas',
-    //UTests_2 In 'Tests\uTests_2.pas',
-    //UTests_3 In 'Tests\uTests_3.pas',
-    //UTests_4 In 'Tests\uTests_4.pas',
-    //UTests_5 In 'Tests\uTests_5.pas';
+![Скриншот кода с закомментированными тестами Delphi](/assets/images/Screenshot_3_Delphi.png)
 
 #### В С++
 Сначала необходимо забилдить решение(F7):
