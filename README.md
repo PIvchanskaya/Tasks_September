@@ -50,14 +50,14 @@
 
 Сначала необходимо забилдить решение:
 
-![Скриншот вкладки Сборка](/assets/images/Screenshot_1_C#.png)
+![Скриншот вкладки Сборка](/assets/images/Screenshot_1_Csharp.png)
 
 Затем открываем вкладу Test и выбираем обозреватель тестов:
 
-![Скриншот обозревателя тестов](/assets/images/Screenshot_2_C#.png)
+![Скриншот обозревателя тестов](/assets/images/Screenshot_2_Csharp.png)
 
 В открывшемся окне раскрываем список тестов и запускаем все/необходимые тесты:
 
-![Скриншот тестов](/assets/images/Screenshot_3_C#.png)
+![Скриншот тестов](/assets/images/Screenshot_3_Csharp.png)
 
 
