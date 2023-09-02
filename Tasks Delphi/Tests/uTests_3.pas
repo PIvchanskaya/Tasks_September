@@ -21,7 +21,7 @@ Type
         [TestCase('TestC', '10,5,1,10')]
         [TestCase('TestD', '25,25,25,25')]
         [TestCase('TestE', '2,2,9,18')]
-        Procedure TestLCM(Const AValue1: Integer; Const AValue2: Integer; Const AValue3: Integer; Const AExpectedValue: Integer);
+        Procedure TestLCM(Const AValue1, AValue2, AValue3, AExpectedValue: Integer);
     End;
 
 Implementation
@@ -34,7 +34,7 @@ Procedure TMyTest.TearDown;
 Begin
 End;
 
-Procedure TMyTest.TestLCM(Const AValue1: Integer; Const AValue2: Integer; Const AValue3: Integer; Const AExpectedValue: Integer);
+Procedure TMyTest.TestLCM(Const AValue1, AValue2, AValue3, AExpectedValue: Integer);
 Var
     TestResult: Integer;
 Begin

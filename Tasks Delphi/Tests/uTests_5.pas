@@ -5,6 +5,7 @@ Interface
 Uses
     DUnitX.TestFramework,
     DUnitX.Utils,
+    Math,
     UTask_5;
 
 Type
@@ -48,7 +49,7 @@ Const
 Var
     TestResult: Real;
 Begin
-    TestResult := TArraySumAndMul.FindSumAndMul(TestArr);
+    TestResult := RoundTo(TArraySumAndMul.FindSumAndMul(TestArr), 0);
     Assert.AreEqual(AExpectedValue, TestResult);
 End;
 
@@ -58,7 +59,7 @@ Const
 Var
     TestResult: Real;
 Begin
-    TestResult := TArraySumAndMul.FindSumAndMul(TestArr);
+    TestResult := RoundTo(TArraySumAndMul.FindSumAndMul(TestArr), -2);
     Assert.AreEqual(AExpectedValue, TestResult);
 End;
 
@@ -68,7 +69,7 @@ Const
 Var
     TestResult: Real;
 Begin
-    TestResult := TArraySumAndMul.FindSumAndMul(TestArr);
+    TestResult := RoundTo(TArraySumAndMul.FindSumAndMul(TestArr), -4);
     Assert.AreEqual(AExpectedValue, TestResult);
 End;
 
@@ -78,7 +79,7 @@ Const
 Var
     TestResult: Real;
 Begin
-    TestResult := TArraySumAndMul.FindSumAndMul(TestArr);
+    TestResult := RoundTo(TArraySumAndMul.FindSumAndMul(TestArr), 0);
     Assert.AreEqual(AExpectedValue, TestResult);
 End;
 
@@ -88,7 +89,7 @@ Const
 Var
     TestResult: Real;
 Begin
-    TestResult := TArraySumAndMul.FindSumAndMul(TestArr);
+    TestResult := RoundTo(TArraySumAndMul.FindSumAndMul(TestArr), -6);
     Assert.AreEqual(AExpectedValue, TestResult);
 End;
 

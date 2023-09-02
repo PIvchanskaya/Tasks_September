@@ -31,12 +31,12 @@ Interface
 
 Type
     TSumOfDigits = Class
-        Class Function FindSum(Value: Int64): Integer;
+        Class Function FindSum(Const Value: Int64): Integer;
     End;
 
 Implementation
 
-Class Function TSumOfDigits.FindSum(Value: Int64): Integer;
+Class Function TSumOfDigits.FindSum(Const Value: Int64): Integer;
 Begin
     //Поместите Ваш код сюда
 End;

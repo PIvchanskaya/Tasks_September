@@ -25,7 +25,6 @@ Uses
     UTask_3 In 'uTask_3.pas',
     UTask_4 In 'uTask_4.pas',
     UTask_5 In 'uTask_5.pas',
-
     UTests_1 In 'Tests\uTests_1.pas',
     UTests_2 In 'Tests\uTests_2.pas',
     UTests_3 In 'Tests\uTests_3.pas',

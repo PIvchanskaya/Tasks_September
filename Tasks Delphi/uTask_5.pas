@@ -22,12 +22,12 @@ Interface
 Type
     //TArr = Array of Real; - так лучше делать в будущем. Пока пишем ручками
     TArraySumAndMul = Class
-        Class Function FindSumAndMul(Arr: Array Of Real): Real;
+        Class Function FindSumAndMul(Const Arr: Array Of Real): Real;
     End;
 
 Implementation
 
-Class Function TArraySumAndMul.FindSumAndMul(Arr: Array Of Real): Real;
+Class Function TArraySumAndMul.FindSumAndMul(Const Arr: Array Of Real): Real;
 Begin
     //Поместит Ваш код сюда
 End;

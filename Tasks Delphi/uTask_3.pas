@@ -22,12 +22,12 @@ Interface
 Type
 
     TLeastCommonMultiple = Class
-        Class Function FindLCM(Value1, Value2, Value3: Integer): Integer;
+        Class Function FindLCM(Const Value1, Value2, Value3: Integer): Integer;
     End;
 
 Implementation
 
-Class Function TLeastCommonMultiple.FindLCM(Value1, Value2, Value3: Integer): Integer;
+Class Function TLeastCommonMultiple.FindLCM(Const Value1, Value2, Value3: Integer): Integer;
 Begin
     //Поместите Ваш код сюда
 End;

@@ -29,12 +29,12 @@ Interface
 
 Type
     TFraction = Class
-        Class Function CanBeReduced(P, Q: Extended): String;
+        Class Function CanBeReduced(Const P, Q: Extended): String;
     End;
 
 Implementation
 
-Class Function TFraction.CanBeReduced(P: Extended; Q: Extended): String;
+Class Function TFraction.CanBeReduced(Const P, Q: Extended): String;
 Begin
     //Поместите Ваш код сюда
 End;

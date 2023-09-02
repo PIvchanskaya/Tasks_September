@@ -17,7 +17,7 @@
       Входные данные: 10 10
       Выходные данные: 100
 
-      4. Сложение
+      4. Деление
       Входные данные: 10 4
       Выходные данные: 2.5
 }
@@ -41,17 +41,17 @@ Begin
     //Поместите Ваш код сюда
 End;
 
-Class Function TCalculator.Sub(Const Value1: Int64; Const Value2: Int64): Int64;
+Class Function TCalculator.Sub(Const Value1, Value2: Int64): Int64;
 Begin
     //Поместите Ваш код сюда
 End;
 
-Class Function TCalculator.Multiply(Const Value1: Int64; Const Value2: Int64): Int64;
+Class Function TCalculator.Multiply(Const Value1, Value2: Int64): Int64;
 Begin
     //Поместите Ваш код сюда
 End;
 
-Class Function TCalculator.Divide(Const Value1: Int64; Const Value2: Int64): Extended;
+Class Function TCalculator.Divide(Const Value1, Value2: Int64): Extended;
 Begin
     //Поместите Ваш код сюда
 End;

@@ -20,7 +20,7 @@ Type
         [TestCase('TestD', '25,5,Yes')]
         [TestCase('TestE', '6,6,Yes')]
         [TestCase('TestF', '1,100,No')]
-        Procedure TestFraction(Const P: Extended; Const Q: Extended; Const AExpectedValue: String);
+        Procedure TestFraction(Const P, Q: Extended; Const AExpectedValue: String);
     End;
 
 Implementation
@@ -33,7 +33,7 @@ Procedure TMyTest.TearDown;
 Begin
 End;
 
-Procedure TMyTest.TestFraction(Const P: Extended; Const Q: Extended; Const AExpectedValue: String);
+Procedure TMyTest.TestFraction(Const P, Q: Extended; Const AExpectedValue: String);
 Var
     TestResult: String;
 Begin
